@@ -1,0 +1,1 @@
+Very brute force approach with just newtons method to solve the QP with line search (I commented it out because it didn't improve anything). After sovling QP, update dual variables and penalty. Repeate until results make you happy. It is very slow because I didn't exploit the sparcity of the arrays.
